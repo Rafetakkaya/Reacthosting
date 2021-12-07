@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Forza';
+    src: local('Forza Thin'), local('Forza-Thin'),
+        url('Forza-Thin.woff2') format('woff2'),
+        url('Forza-Thin.woff') format('woff'),
+        url('Forza-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.host{
+    width: 100%;
+    height: 750px;
+    display: flex;
+  
+    justify-content: center;
+   
+   margin-top: 160px;
+
+   margin-bottom: 120px;
+ 
+
+}
+.hostheader{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+   
+    flex-direction: column;
+    
+
+
+}
+.Althost{
+    display: flex;
+    width: 100%;
+ 
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    
+    
+
+}
+.Usthost{
+    display: flex;
+    width: 100%;
+  
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.host1{
+ 
+    justify-content: space-between;
+    
+    display: flex;
+flex-direction: column;
+align-items: center;
+    width: 250px;
+    height: 300px;
+    
+  
+
+}
+.host2{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    
+    
+}
+.host3{
+   
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 250px;
+    height: 300px;
+}
+.host4{
+    
+   
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 250px;
+    height: 300px;
+}
+.host5{
+    
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 250px;
+    height: 300px;
+    
+}
+.host6{
+  
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 250px;
+    height: 300px;
+    
+}
+.img1{
+  
+    
+    width: 100px;
+    height: 93px;
+}
+.hostp{
+    text-indent: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+}
+.hostleadhead{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+flex-direction: column;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.firsthost{
+    font-family: "Forza";
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+  
+
+}
+.secondhost{
+    color: #8A8A8A;
+    font-size: 15px;
+    font-weight: 400;
+}
+.powerweb{
+font-family: "Forza";
+font-weight: 700;
+font-size: 20px;
+}
+.paragraf {
+      
+    display: flex;
+    margin-left: 100px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+  font-family: "Forza";
+}
+
+@media only screen and (min-width: 1200px) {
+  
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .host{
+        width: 100%;
+        height: 750px;
+        display: flex;
+       
+        justify-content: center;
+       
+       margin-top: 400px;
+    
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .host{
+        width: 100%;
+        height: 750px;
+        display: flex;
+       
+        justify-content: center;
+       
+       margin-top: 700px;
+    
+    }
+  
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .host{
+        width: 100%;
+        height: 750px;
+        display: flex;
+       
+        justify-content: center;
+       
+       margin-top: 660px;
+    
+    }
+   
+}
+ 
+
+@media only screen and (max-width: 574px) {
+    .host{
+        width: 100%;
+        height: 750px;
+        display: flex;
+       
+        justify-content: center;
+       
+       margin-top: 760px;
+    
+    }
+    .hostheader{
+        width: 1200px;
+        height: 400px;
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    
+    }
+    .Althost{
+        display: flex;
+        width: 100%;
+    
+     align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        margin-bottom: 40px;
+    
+        
+        
+    
+    }.Usthost{
+        display: flex;
+        width: 100%;
+      align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .host{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+       
+       margin-top: 1400px;
+       margin-bottom: 550px;
+    
+    }
+    .hostleadhead{
+        margin-top: 150px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+    flex-direction: column;
+        display: flex;
+        
+    }
+ 
+}

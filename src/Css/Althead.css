@@ -1,0 +1,172 @@
+.altcard {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 400px;
+  background: linear-gradient(-80deg, #24103f 10%, #040f2b 20%);
+  margin-top: 90px;
+}
+.althead {
+  display: flex;
+  width: 836px;
+  height: 400px;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+.altparagraf {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.paragraf {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-indent: 10px;
+  display: flex;
+  font-size: 30px;
+ 
+}
+.secondcard {
+  display: flex;
+  position: absolute;
+  margin-top: 600px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.twistcard1 {
+  margin: 15px;
+  display: flex;
+  width: 590px;
+  height: 351px;
+  background-color: #0055fa;
+}
+.twistcard2 {
+  display: flex;
+  margin: 15px;
+  width: 590px;
+  height: 351px;
+
+  background-color: #0055fa;
+}
+p {
+  font-size: 17px;
+}
+.paragraftag {
+  width: 500px;
+  margin-left: 20px;
+  align-self: center;
+  color: #acceff;
+}
+.paragraf_logo {
+  margin-top: 80px;
+  margin-left: 40px;
+
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+.paragrafButton {
+  width: 165px;
+  height: 42px;
+  background: #ff7900;
+  border: 1px solid #ff7900;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Forza";
+  font-weight: 400;
+  font-size: 15px;
+}
+.paragrafButton:hover {
+  opacity: 0.7;
+}
+.basparagrafhead{
+  width: 350px;
+  display: flex;
+  font-size: 15px;
+ 
+}
+
+
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .secondcard {
+    display: flex;
+    position: absolute;
+    margin-top: 1000px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+.baslıkParagraf {
+  color: white;
+}
+.paragraf {
+  align-items: center;
+  margin-left: 10px;
+  padding-left: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .secondcard {
+    display: flex;
+    position: absolute;
+    margin-top: 1000px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .paragraf {
+    width: 400px;
+    margin-left: 100px;
+
+    padding-left: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .secondcard {
+    display: flex;
+    position: absolute;
+    margin-top: 1000px;
+    justify-content: space-evenly;
+ 
+    flex-direction: column;
+  }
+  .paragraf {
+    width: 450px;
+  margin-right: 50px;
+  font-family: "Forza";
+}
+  .paragraf_logo {
+    margin-top: 50px;
+    margin-left: 60px;
+  
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+  }
+  .basparagrafhead{
+    width: 350px;
+    display: flex;
+  }
+  .basparagrafhead{
+    width: 310px;
+    display: flex;
+   
+  }
+  
+  
+}

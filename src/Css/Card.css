@@ -1,0 +1,38 @@
+.head{
+    margin-bottom: 25px;
+    
+}
+.cardhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.paragraf{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card1{
+   
+    margin-right: 25px;
+    width: 230px;
+    height: 420px;
+   
+
+
+}
+
+.card2{
+    margin-right: 25px;
+    width: 230px;
+    height: 420px;
+
+
+}
+.card3{
+    width: 230px;
+    height: 420px;
+  
+
+}

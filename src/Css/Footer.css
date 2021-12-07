@@ -1,0 +1,266 @@
+
+@font-face {
+    font-family: 'Forza';
+    src: local('Forza Thin'), local('Forza-Thin'),
+        url('Forza-Thin.woff2') format('woff2'),
+        url('Forza-Thin.woff') format('woff'),
+        url('Forza-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+.main{
+
+    width: 100%;
+    display: flex;
+    height: 432px;
+
+
+  
+  
+  justify-content: center;
+
+  background: linear-gradient(-80deg , #0A1324 10%, #040f2b 20%);
+
+ 
+  
+
+  
+
+}
+.lead{
+    
+    margin-top: 60px;
+    width: 100%;
+   
+    height: 300px;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.footer{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    height: 280px;
+    justify-content: center;
+   
+  
+    
+  
+
+    
+
+}
+.altFooter{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+color: white;
+
+}
+
+.card1{
+ 
+    width: 300px;
+   
+    line-height: 20px;
+    font-size: 6px;
+    margin-right: 50px;
+    color: white;
+
+}
+
+.fleg{
+    width: 18px;
+    height: 12px;
+    object-fit: contain;
+    margin-bottom:3px;
+    background-color: white;
+}
+.image{
+    float: left;
+    margin-right: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+    
+   
+}
+.yukarıdan{
+    padding-bottom:35px;
+}
+.head{
+    margin-bottom: 30px;
+   
+    font-size: 40px;
+    color: white;
+    
+}
+.white{
+    color: white;
+}
+.card2{
+    
+
+    text-align: start;
+    width: 150px;
+    height: 275px;
+    
+    line-height: 12px;
+    
+    margin-right: -10px;
+    color: white;
+  
+   
+
+}
+
+.card3{
+   
+    text-align: start;
+    width: 150px;
+    height: 275px;
+  
+    line-height: 15px;
+    font-size: 16px;
+    color: white;
+   
+   
+
+
+}
+.card4{
+    width: 90px;
+    height: 275px;
+    line-height: 15px;
+    font-size: 12px;
+    color: white;
+  
+
+    
+
+}
+.fontag{
+    font-size: 12px;
+    line-height: 15px;
+    color: #748292;
+}
+.bank{
+    background-color: #22314E;
+    width: 100%;
+    
+    color: #748292;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.banked{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footericon{
+    margin-right: 7px;
+  border: 1px solid gray;
+  border-radius: 10px;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.bank1{
+    color: #748292;
+  
+   align-items: center;
+
+    display: flex;
+    font-size: 14px;
+    font-family: "Forza";
+    font-weight: 500;
+   
+
+
+}
+
+.bank2{
+    color:  #FFFFFF;
+    
+    justify-content: end;
+    display: flex;
+    
+   
+    
+}
+.res1{
+    margin-left: 10px;
+    font-size: 30px;
+   
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .altFooter{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    
+    
+    }
+
+}
+
+ 
+
+@media only screen and (max-width: 574px) {
+    .altFooter{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 150px;
+        flex-direction: column;
+    
+    
+    }
+    .main{
+
+        width: 100%;
+        display: flex;
+        height: 1100px;
+    
+    
+  
+ 
+    
+      background: linear-gradient(-80deg , #24103f 10%, #040f2b 20%);
+    
+      margin-top: 20px;
+      overflow-X: hidden;
+    
+      
+      
+      
+    
+    }
+    .bank{
+        background-color: #22314E;
+     
+        
+        color: #748292;
+        margin-top: 716px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    
+     
+    }
+    .yukarıdan{
+        padding-bottom:0px;
+    }
+
+}

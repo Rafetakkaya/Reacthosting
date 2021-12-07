@@ -1,0 +1,244 @@
+.setbag {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+
+  margin-bottom: 100px;
+}
+.wiew {
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  background-color: black;
+  height: 380px;
+}
+
+.headerlead {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.safescroll {
+  width: 1600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  background-color: black;
+  height: 380px;
+}
+
+.setBanner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 200px;
+}
+.center {
+display: flex;
+}
+
+.headerfont {
+    display: flex;
+  width: 860px;
+color: white;
+  font-size: 38px;
+  padding-left: 100px;
+  text-align: end;
+  justify-content: flex-end;
+}
+.paragrafs {
+    
+ 
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  flex-direction: column;
+  align-items: flex-end;
+
+  font-family: "Forza";
+}
+.paragrafbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 200px;
+  font-size: 16px;
+  color:  #8193B2;
+}
+.mg {
+  object-fit: contain;
+  padding-bottom: 5px;
+
+ 
+}
+.phn {
+  position: relative;
+
+}
+.imges {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 250px;
+}
+.imageses {
+  margin-left: 90px;
+}
+.prbox {
+  position: relative;
+  top: -20px;
+  color:  #8193B2;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .phn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .phn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .phn {
+    display: none;
+  }
+  .setBanner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+  }
+  .center {
+  display: flex;
+  }
+  
+  .headerfont {
+      display: flex;
+    width: 860px;
+  color: white;
+    font-size: 38px;
+    padding-left: 80px;
+    font-size: 30px;
+    text-align: end;
+    justify-content: flex-end;
+  }
+  .paragrafs {
+      
+   
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    font-family: "Forza";
+  }
+  .paragrafbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 200px;
+    font-size: 16px;
+    color:  #8193B2;
+  }
+  .imges {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 250px;
+}
+.imageses {
+  margin-left: 0px;
+}
+.prbox {
+  position: relative;
+  top: -20px;
+  color:  #8193B2;
+}
+}
+
+@media only screen and (max-width: 574px) {
+  .phn {
+    display: none;
+  }
+
+  .setBanner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+  }
+  .center {
+  display: flex;
+  }
+  
+  .headerfont {
+    display: flex;
+  width: 550px;
+color: white;
+
+  padding-left: 180px;
+  font-size: 20px;
+  text-align: end;
+  justify-content:center;
+}
+  .paragrafs {
+      
+   
+    
+  }
+  .paragrafbox {
+    position: relative;
+    text-indent: 10px;
+    right: -50px;
+    color:  #8193B2;
+    font-size: 14px;
+    
+  }
+
+.imges {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 190px;
+  }
+.imageses {
+  margin-left: 0px;
+}
+.prbox {
+    position: relative;
+  top: -20px;
+  right: 50px;
+  color:  #8193B2;
+
+  font-size: 14px;
+ 
+}
+.mg {
+    object-fit: contain;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  
+   
+  }
+}
