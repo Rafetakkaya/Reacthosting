@@ -26,15 +26,6 @@ function App() {
         <Secondbody />
         <Althead />
         <Host />
-
-
-
-
-
-
-
-
-
         <SetBanner />
         <Network />
         <Headcard />
